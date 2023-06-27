@@ -1,0 +1,44 @@
+#airplane {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+canvas{
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px cadetblue;
+    filter: drop-shadow(0 0 5px rgb(220, 124, 115));
+    padding: 20px;
+}
+
+#button_curr{
+    width: 320px;
+    margin: 0 auto;
+}
+
+#button_curr button{
+    padding: 5px;
+    background-color: blanchedalmond;
+    font-size: medium;
+    font-family: 'Operator Mono', 'Source Code Pro', Menlo, Monaco, Consolas, Courier New, monospace;
+    margin: 15px;
+}
+
+div p{
+    background-color: blanchedalmond;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: 'Operator Mono', 'Source Code Pro', Menlo, Monaco, Consolas, Courier New, monospace;
+    font-size: medium;
+}
+
+div h3{
+    text-align: center;
+    margin: 2px;
+    padding: 12px;
+    font-family: 'Operator Mono', 'Source Code Pro', Menlo, Monaco, Consolas, Courier New, monospace;
+}
