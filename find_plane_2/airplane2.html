@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finding Airplanes Advance</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="airplane2.css">
+
+</head>
+<body>
+  <div class="game-box">
+      <canvas class="gameCanvas">
+
+      </canvas>
+      <div class="game-control">
+          <a class="start-button" onclick="start_option()">Start</a>
+          <div class="score-container">0</div>
+          <div class="best-container">0</div>
+
+          <div class="game-info">
+              <div class="p0">
+                  <p>
+                     Three airplanes will appear on a chessbox, as shown left, click on each grid and find the head of all the planes.
+                  </p>
+              </div>
+              <div class="p1">
+                  <canvas class="plane1"></canvas>
+              </div>
+              <div class="p2">
+                  <canvas class="plane2"></canvas>
+              </div>
+              <div class="p3">
+                  <canvas class="plane3"></canvas>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<script src="./airplane2.js"></script>
+
+</body>
+</html>
