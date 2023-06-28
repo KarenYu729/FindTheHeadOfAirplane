@@ -1,0 +1,132 @@
+.Title {
+    background-color: lightgoldenrodyellow;
+    height: 48px;
+    width: 645px;
+    margin: 0 auto;
+}
+
+.Title h3 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    text-align:center;
+    font-size: x-large;
+    padding-top: 7px;
+}
+
+.game-box {
+    width: 660px;
+    height: 375px;
+    background-color: burlywood;
+    margin: 70px auto;
+}
+
+.game-container {
+    height: 345px;
+    width: 300px;
+    /*background-color: darksalmon;*/
+    float: left;
+    margin: 15px;
+    border-radius:3px;
+}
+
+.game-box .title-container {
+    width: 300px;
+    height: 30px;
+    /*background-color: peru;*/
+    border-radius:3px;
+}
+
+.example-container {
+    height: 345px;
+    width: 300px;
+    /*background-color: darksalmon;*/
+    float: right;
+    margin: 15px;
+    border-radius:3px;
+}
+
+.game-container .game {
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    border-radius:3px;
+    margin-top: 15px;
+}
+
+.example-container .example {
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    border-radius:3px;
+    margin-top: 15px;
+}
+
+.game-container .title-container #cur {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.game-container .title-container div {
+    height: 30px;
+    width: 130px;
+    float: left;
+    text-align:center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 12px;
+    margin-right: 5px;
+    border-radius:3px;
+    background-color: maroon;
+    color: #faf8ef;
+}
+
+.game-container .title-container div:hover {
+    color: lightsalmon;
+}
+
+.example-container .title-container div {
+    background-color: maroon;
+    color: #faf8ef;
+    text-align:center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius:3px;
+    width: 300px;
+    height: 30px;
+}
+
+.example-container .title-container div:hover {
+    color: lightsalmon;
+}
+
+#gameCanvas {
+    margin: 1px;
+}
+
+#exampleCanvas {
+    margin: 1px;
+}
+
+#show {
+    position: absolute;
+    /*bottom: -100px;*/
+    /*right: 45px;*/
+    background-color: goldenrod;
+    height: 120px;
+    width: 300px;
+    display: none;
+    z-index: 2001;
+}
+
+.example-container .title-container .ExampleExplain:hover #show{
+    display: block;
+    color: lightcyan;
+    opacity: 80%;
+}
+
+.example-container .title-container .ExampleExplain p {
+    font-size: medium;
+}
