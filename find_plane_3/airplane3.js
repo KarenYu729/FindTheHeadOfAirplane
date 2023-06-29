@@ -91,6 +91,16 @@ FindAirplaneHead.prototype._drawGrid = function () {
 //
 // }
 
+function checkHead (HeadCnt) {
+    for (let i=1; i<99; i++) {
+        if (HeadCnt > i*(i+1) && HeadCnt < i*(i-1)){
+            return false
+        } else if (HeadCnt === i*(i-1)){
+            return true
+        }
+    }
+}
+
 var HeadCnt = 0;
 const flip = (canvas, context, event, plane) => {
     const rect = canvas.getBoundingClientRect()
@@ -113,7 +123,8 @@ const flip = (canvas, context, event, plane) => {
         context.fillStyle="#FF0000";
         context.fillRect(i*30, j*30, 28, 28);
         HeadCnt += 1;
-        if (HeadCnt === 2) {
+        console.log(HeadCnt);
+        if (checkHead(HeadCnt)) {
             setTimeout(function(){
                 alert('success ^_^');
 
